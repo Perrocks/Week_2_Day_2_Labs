@@ -19,4 +19,3 @@ class Customer():
         for pet in self.pets:
             total += pet.price
         return total
-        
