@@ -1,10 +1,10 @@
 from classes.customer import Customer
 
 class PetShop:
-    def __init__(self, shop_name, pets_list, starting_cash):
-        self.name = shop_name
-        self.pets_list = pets_list
-        self.total_cash = starting_cash
+    def __init__(self, input_shop_name, input_pets_list, input_starting_cash):
+        self.name = input_shop_name
+        self.pets_list = input_pets_list
+        self.total_cash = input_starting_cash
         self.pets_sold = 0
 
     #methods
