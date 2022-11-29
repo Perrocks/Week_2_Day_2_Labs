@@ -6,4 +6,4 @@ class Pet:
         self.type = type
         self.breed = breed
         self.price = price
-        print(f"Hello! I'm {self.name} and I'm a {self.breed} {self.type}.")
+        # print(f"Hello! I'm {self.name} and I'm a {self.breed} {self.type}.")

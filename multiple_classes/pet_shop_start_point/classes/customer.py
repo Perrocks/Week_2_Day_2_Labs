@@ -4,11 +4,11 @@ class Customer():
     def __init__(self, input_name, input_cash):
         self.name = input_name
         self.cash = input_cash
-        self.pets = []
+        self.pets = [ ]
     
     #Methods
     def add_pet(self, pet_object):
-        self.pets.append(Pet(pet_object.name, pet_object.type, pet_object.breed, pet_object.price))
+        self.pets.append(pet_object)
 
     def reduce_cash(self, amount):
         self.cash -= amount
@@ -21,5 +21,3 @@ class Customer():
         for pet in self.pets:
             total += pet.price
         return total
-
-
