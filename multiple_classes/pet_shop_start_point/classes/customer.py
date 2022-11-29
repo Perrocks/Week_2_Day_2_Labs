@@ -1,5 +1,3 @@
-from classes.pet import Pet
-
 class Customer():
     def __init__(self, input_name, input_cash):
         self.name = input_name
@@ -21,3 +19,4 @@ class Customer():
         for pet in self.pets:
             total += pet.price
         return total
+        
