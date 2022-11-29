@@ -17,3 +17,6 @@ class TestPet(unittest.TestCase):
 
     def test_pet_has_price(self):
         self.assertEqual(500, self.pet.price)
+
+    def test_pet_has_motto(self):
+        self.assertEqual("A happy human makes a happy home", Pet.motto) #Added for funn
