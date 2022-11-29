@@ -22,6 +22,10 @@ class PetShop:
             if pet == pet_object:
                 self.pets_list.remove(pet_object)
 
+    #Alt method for remove_pet
+    def remove_pet(self, pet_object): 
+        self.pet.remove(pet_object)
+
     def find_pet_by_name(self, pet_name):
         for pet in self.pets_list:
             if pet.name == pet_name:
